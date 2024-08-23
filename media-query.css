@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@media (min-width: 728px)
+{
+    .calculadora{
+        top:  30%;
+        left: 40%;
+        transform: translate(-50% -50%);
+        
+    }
+}
