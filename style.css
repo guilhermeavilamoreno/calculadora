@@ -6,43 +6,42 @@
 }
 
 .Guilherme{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    margin: 20px;
+    text-align: center;
     color: black;
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.486);
+    text-shadow: 1px 1px rgba(230, 228, 228, 0.486);
 }
 
 
 
-.fundo{
-    background: url(imagens/fundo-parede.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    color: white;
-    text-align: center;
+body{
+    background-image: linear-gradient(to right, rgb(230, 229, 229), rgb(180, 178, 178),rgb(201, 199, 199));
 }
 
 .calculadora{
     color: white;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.815);
-    top: 30%;
-    left: 40%;
-    transform: translate (-50% -50%);
+    top: 27%;
+    left: 39%;
+    transform: translate(-50% -50%);
     border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.788);
     padding: 10px;
 }
 
 #resultado{
-    width: 194px;
+    width: 233px;
     height: 25px;
-    background-color: white;
+    background-color: rgb(57, 112, 82);
     color: black;
     font-weight: bolder;
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
+    border: 1px solid black;
     text-align: right;
     
 }
@@ -54,7 +53,7 @@
     background-color: rgb(14, 13, 13);
     color: white;
     font-size: 16px;
-    width: 50px;
+    width: 60px;
     height: 50px;
     padding: 20px;
     cursor: pointer;
@@ -64,6 +63,9 @@
 }
 
 .botao:hover{
-    background-color: rgba(14, 13, 13, 0.938);
+    background-color: rgba(26, 23, 23, 0.938);
+    border: 1px solid white;
+    color: rgb(236, 236, 53)
+    
 
 }
