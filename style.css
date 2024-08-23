@@ -44,10 +44,11 @@ body{
 #resultado{
     width: 233px;
     height: 25px;
+    font-size: 21px;
     background-color: rgb(57, 112, 82);
     color: black;
     font-weight: bolder;
-    padding: 5px;
+    padding: 6px;
     margin: 5px;
     border-radius: 5px;
     border: 1px solid black;
