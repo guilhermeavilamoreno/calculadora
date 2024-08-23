@@ -29,7 +29,7 @@ body{
 }
 
 .calculadora{
-    color: white;
+    color: rgb(216, 213, 213);
     position: absolute;
     height: 400px;
     background-color: rgba(0, 0, 0, 0.815);
