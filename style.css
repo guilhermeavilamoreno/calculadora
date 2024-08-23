@@ -25,6 +25,14 @@
     color: black;
 }
 
+.Guilherme > a:hover{
+    color: white;
+    background-image: linear-gradient(to left, rgba(29, 29, 1, 0.87),rgba(34, 34, 2, 0.788),rgba(34, 34, 2, 0.849));
+    padding: 10px;
+    border-radius: 5px;
+    animation: alternate-reverse;
+}
+
 body{
     background-image: linear-gradient(to right, rgb(230, 229, 229), rgb(180, 178, 178),rgb(201, 199, 199));
 }
