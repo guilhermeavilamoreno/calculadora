@@ -24,8 +24,6 @@
     color: black;
 }
 
-
-
 body{
     background-image: linear-gradient(to right, rgb(230, 229, 229), rgb(180, 178, 178),rgb(201, 199, 199));
 }
@@ -36,7 +34,7 @@ body{
     height: 400px;
     background-color: rgba(0, 0, 0, 0.815);
     top: 27%;
-    left: 27%;
+    left:23%;
     transform: translate(-50% -50%);
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.788);
